@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="shortcut icon" type="png" href="https://learnbowl.com/assets/img/favicon.ico">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>LearnBowl</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function() {
+			if ($(window).scrollTop()) {
+				$('nav').addClass('black');
+			} else {
+				$('nav').removeClass('black');
+			}
+		})
+	</script>
+</head>
+
+<body>
+	<!-- Navigation Bar -->
+	<header id="header">
+		<nav>
+			<div class="logo"><img src="https://learnbowl.com/assets/img/logo/logo.png" alt="logo"></div>
+			<ul>
+				<li><a class="active" href="">Home</a></li>
+				<li><a href="#portfolio_section">Portfolio</a></li>
+				<li><a href="#team_section">Courses</a></li>
+				<li><a href="#services_section">Importance</a></li>
+				<li><a href="#contactus_section">Register</a></li>
+			</ul>
+			<div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="images/icon/search.png" alt="search" onclick=slide()></div>
+			<a class="get-started" href="login.html">Get Started</a>
+			<img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+		<div class="head-container">
+			<div class="quote">
+				<h4>Learn french online from India's best teachers.</h4>
+				<p style="color: purple; font-weight:500; padding-bottom:5%;">The heaven for holistic learning</p>
+				<h3>Learn French online: Register for workshop.</h3>
+				<div class="play">
+					<!-- <div class="det"><a href="#contactus_section"><img src="images/courses/computer.png">Register Now</a></div> -->
+					<img c src="images/icon/play.png" alt="play"><span><a href="#contactus_section" target="_blank">Register Now</a></span>
+				</div>
+			</div>
+			<div class="svg-image">
+				<img src="images/extra/svg1.jpg" alt="svg">
+			</div>
+		</div>
+		<div class="side-menu" id="side-menu">
+			<div class="close" onclick="sideMenu(1)"><img src="images/icon/close.png" alt=""></div>
+			<!-- <div class="user">
+				<img src="images/creator/roshan.jpeg" alt="Username">
+				<p>roshank9419</p>
+			</div> -->
+			<ul>
+				<li><a href="#about_section">About</a></li>
+				<li><a href="#portfolio_section">Portfolio</a></li>
+				<li><a href="#team_section">Team</a></li>
+				<li><a href="#services_section">Services</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+				<li><a href="#feedBACK">Feedback</a></li>
+			</ul>
+		</div>
+	</header>
+
+
+
+	<div class="service-swipe">
+		<div class="diffSection" id="services_section">
+			<center>
+				<p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #fff;">Advantages of learning french</p>
+			</center>
+		</div>
+		<a href="#services_section">
+			<div class="s-card"><img src="images/icon/computer-courses.png">
+				<p>Increases Education opportunity</p>
+			</div>
+		</a>
+		<a href="#services_section">
+			<div class="s-card"><img src="images/icon/brainbooster.png">
+				<p>Boosts Brainpower</p>
+			</div>
+		</a>
+		<a href="#services_section">
+			<div class="s-card"><img src="images/icon/online-tutorials.png">
+				<p>Facilitates overall personality development</p>
+			</div>
+		</a>
+		<a href="#services_section">
+			<div class="s-card"><img src="images/icon/papers.jpg">
+				<p>Enhances decision making</p>
+			</div>
+		</a>
+		<a href="#services_section">
+			<div class="s-card"><img src="images/icon/p3.png">
+				<p>Increases focus and concentration</p>
+			</div>
+		</a>
+		<a href="#services_section">
+			<div class="s-card"><img src="images/icon/discussion.png">
+				<p>Improves Networking Skills</p>
+			</div>
+		</a>
+		<!-- <a href="subjects/quiz.html"><div class="s-card"><img src="images/icon/q1.png"><p>Daily Brain Teasing Questions to Improve IQ</p></div></a>
+			<a href="#contactus_section"><div class="s-card"><img src="images/icon/help.png"><p>24x7 Online Support</p></div></a> -->
+	</div>
+
+
+	<!-- ABOUT -->
+	<div class="diffSection" id="about_section">
+		<center>
+			<p style="font-size: 50px; padding: 100px;;">About Us</p>
+		</center>
+		<div class="about-content">
+			<div class="side-image">
+				<img class="sideImage" src="images/extra/e3.jpg">
+			</div>
+			<div class="side-text">
+				<h2 style="font-size:1.5rem;line-height:1.2;color:#BD4B4B;">“An investment in knowledge pays the best interest”</h2>
+				<h5 style="margin-bottom:5%; color:#5089C6;">- Benjamin Franklin</h5>
+				<p>LearnBowl is an Ed-tech company, driven by the incentive to expedite the learning process in a holistic, student-friendly environment. With our primary focus being on extra-curricular learning, we believe in enriching our students’
+					academic persona. To accomplish this, we have a seasoned faculty on board.
+
+					With the teaching of the French language being the first of our many initiatives, come join us on a journey to accomplish the ‘out of the ordinary.</p>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- PORTFOLIO -->
+	<div class="diffSection" id="portfolio_section">
+		<center>
+			<p style="font-size: 50px; padding: 100px; padding-bottom: 40px;">Students love Us</p>
+		</center>
+		<div class="content">
+			<p>
+				“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” “Your attitude, not your aptitude, will determine your altitude.” “If you think education is expensive, try ignorance.” “The only person who is
+				educated is the one who has learned how to learn …and change.”
+			</p>
+		</div>
+	</div>
+	<div class="extra">
+		<p>We're increasing this data every year</p>
+		<div class="smbox">
+			<span>
+				<center>
+					<div class="data">250+</div>
+					<div class="det">Happy Students</div>
+				</center>
+			</span>
+			<span>
+				<center>
+					<div class="data">100+</div>
+					<div class="det">Topics</div>
+				</center>
+			</span>
+			<span>
+				<center>
+					<div class="data">3000+</div>
+					<div class="det">Teaching Hours</div>
+				</center>
+			</span>
+			<span>
+				<center>
+					<div class="data">4.5</div>
+					<div class="det">User Ratings</div>
+				</center>
+			</span>
+		</div>
+	</div>
+
+
+	<!-- courses -->
+	<div class="diffSection" id="team_section">
+		<center>
+			<p style="font-size: 50px; padding-top: 100px; padding-bottom: 60px;">Our popular courses</p>
+		</center>
+		<div class="totalcard">
+			<div class="card">
+				<center><img src="https://learnbowl.com/assets/img/hero/book.png"></center>
+				<div class="card-title">Basic workshop</div>
+				<div id="detail">
+					<h5 style="text-align:left; margin-left:10%;margin-bottom:5%;">CURRICULAM</h5>
+
+					<p>Alphabets, Greetings,<br /> Practice with communication, Accents,<br /> Numbers</p>
+					<br>
+					<h4 style="background:#7C83FD;margin-top:15%;margin-left: 10%; margin-bottom: 1%;display:inline-block;padding:2% 6%;border-radius:90%;">87% OFF</h4>
+
+					<h3 style="color:blue; margin-left:10%;">₹ 49 <span style="color:blue; margin-left: 4%; font-size: 0.8rem; text-decoration: line-through;">₹ 399</span> </h3>
+					<h5 style="margin-left:10%;">3 classes. ₹16 per session</h5>
+					<div class="duty"></div>
+					<a href="#contactus_section" target="_blank"><button class="btn-b">Join Now</button></button></a>
+				</div>
+				</center>
+			</div>
+			<div class="card">
+				<center><img src="https://learnbowl.com/assets/img/hero/book.png"></center>
+				<div class="card-title">Intermediate</div>
+				<div id="detail">
+					<h5 style="text-align:left; margin-left:10%; margin-bottom:5%;">CURRICULAM</h5>
+
+					<p>Greetings, Numbers, Self- Introduction, Alphabets, Professions, Nationalities, Grammar, Colours.</p>
+					<br>
+					<h4 style="background:#7C83FD;margin-top:15%;margin-left: 10%; margin-bottom: 1%;display:inline-block;padding:2% 6%;border-radius:90%;">87% OFF</h4>
+
+					<h3 style="color:blue;margin-left:10%; ">₹ 4,499 <span style="color:blue; margin-left: 4%;font-size: 0.8rem;  text-decoration: line-through;">₹ 6,299</span> </h3>
+					<h5 style="margin-left:10%;">25 classes. $180 per session</h5>
+					<div class="duty"></div>
+					<a href="#contactus_section" target="_blank"><button class="btn">Join Now </button></a>
+
+				</div>
+				</center>
+			</div>
+			<div class="card">
+				<center><img src="https://learnbowl.com/assets/img/hero/book.png"></center>
+				<div class="card-title">Advanced</div>
+				<div id="detail">
+					<h5 style="text-align:left; margin-left:10%; margin-bottom:5%;">CURRICULAM</h5>
+					<p tyle="text-align:left; margin-left:15%;">Verbs, Adjectives, Negations,Nouns, Speak about body parts, Nationalities, Seasons, Activities, People Description, Food Items</p>
+					<br>
+					<h4 style="background:#7C83FD;margin-top:15%;margin-left: 10%; margin-bottom: 1%;display:inline-block;padding:2% 6%;border-radius:90%;">87% OFF</h4>
+					<h3 style="color:blue; margin-left:10%;">₹ 7,999 <span style="color:blue;margin-left: 4%;font-size: 0.8rem; text-decoration: line-through;">₹ 12,599</span> </h3>
+					<h5 style="margin-left:10%;">50 classes. ₹ 160 per session</h5>
+					<div class="duty"></div>
+					<a href="#contactus_section" target="_blank"><button class="btn">Join Now</button></a>
+				</div>
+				</center>
+			</div>
+		</div>
+
+	</div>
+
+
+
+	<!-- Reviews by Students -->
+	<div id="makeitfull">
+		<a href="#review_section"><img src="images/icon/makeitfull.png"></a>
+	</div>
+	<div class="review">
+		<div class="diffSection" id="review_section">
+			<center>
+				<p style="font-size: 40px; padding: 100px; padding-bottom: 40px; color: #2E3D49;">What Our Students Say</p>
+			</center>
+		</div>
+		<div class="rev-container">
+			<div class="rev-card">
+				<div class="identity">
+					<img src="images/creator/humanNotExist1.jpg">
+					<p>TINA</p>
+					<h6>Beginner course</h6>
+					<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+				</div>
+				<div class="rev-cont">
+					<p id="title">Review:</p>
+					<p id="content">
+						The Teacher was vey patient and dedicated and knew the language well. This helped my son catch up with French over summer Holidays.I highly recommend it.
+					</p>
+				</div>
+			</div>
+			<div class="rev-card">
+				<div class="identity">
+					<img src="images/creator/humanNotExist2.jpg">
+					<p>SHREYAS MAHESH</p>
+					<h6>Advanced course</h6>
+					<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+				</div>
+				<div class="rev-cont">
+					<p id="title">Review:</p>
+					<p id="content">
+						From day 1, all the lectures have been very engaging which helped me learn in a better way. Overall, I enjoyed the process and everyone has been very helpful.
+					</p>
+				</div>
+			</div>
+			<div class="rev-card">
+				<div class="identity">
+					<img src="images/creator/humanNotExist3.jpg">
+					<p>SHWEAT PASRICHA</p>
+					<h6>Intermediate course</h6>
+					<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+				</div>
+				<div class="rev-cont">
+					<p id="title">Review:</p>
+					<p id="content">
+						The faculty teachers very well and explains the concepts nicely. My son has been taking up the classes and it has been a good experience.
+					</p>
+				</div>
+			</div>
+			<div class="rev-card">
+				<div class="identity">
+					<img src="images/creator/humanNotExist4.jpg">
+					<p>NITHYA DIAZ</p>
+					<h6>Advanced course</h6>
+					<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+				</div>
+				<div class="rev-cont">
+					<p id="title">Review:</p>
+					<p id="content">
+						The French instructors have an excellent teaching skills which makes it easy to understand. Alot of effort is taken into each concept. The teachers are very energetic and have a positive attitude. Great going, good luck!
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Register  -->
+	<div class="diffSection" id="contactus_section">
+		<center>
+			<p style="font-size: 50px; padding: 100px">Register Here</p><br>
+
+		</center>
+		<div class="csec"></div>
+		<div class="back-contact">
+			<div class="cc">
+				<form action="mailto:ayushdincre99@gmail.com" method="post" enctype="text/plain">
+					<label>Name <span class="imp">*</span></label><br>
+					<center>
+						<input type="text" name="" style=" width: 100%;" required="required"><br>
+					</center>
+					<label>Contact Number <span class="imp">*</span></label><br>
+					<input type="number" name="number" style="width: 100%" required="required"><br>
+					<label for="grade" style="width: 100%" required="required">Students grade <span class="imp">*</span></label><br>
+					<select class="grade" id="grade" name="cars">
+						<option style="padding:2%; background-color:green;" value="5">5th grade</option>
+						<option value="6">6th grade</option>
+						<option value="7">7th grade</option>
+						<option value="8">8th grade</option>
+						<option value="9">9th grade</option>
+						<option value="10">10th grade</option>
+						<option value="11">11th grade</option>
+						<option value="12">12th grade</option>
+						<option value="12+">12+ </option>
+					</select><br>
+					<label>Message <span class="imp">*</span></label><br>
+					<input type="text" name="message" style="width: 100%" required="required"><br>
+					<label>Additional Details</label><br>
+					<textarea name="addtional"></textarea><br>
+					<button type="submit" id="csubmit">BOOK A WORKSHOP</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- FEEDBACK -->
+	<div class="title2" id="feedBACK">
+		<span>Give Feedback</span>
+		<div class="shortdesc2">
+			<p>Please share your valuable feedback to us</p>
+		</div>
+	</div>
+
+	<div class="feedbox">
+		<div class="feed">
+			<form action="mailto:roshank9419@gmail.com" method="post" enctype="text/plain">
+				<label>Your Name</label><br>
+				<input type="text" name="" class="fname" required="required"><br>
+				<label>Email</label><br>
+				<input type="email" name="mail" required="required"><br>
+				<label>Additional Details</label><br>
+				<textarea name="addtional"></textarea><br>
+				<button type="submit" id="csubmit">Send Message</button>
+			</form>
+		</div>
+	</div>
+
+	<!-- Sliding Information -->
+	<marquee style="background: linear-gradient(to right, #FA4B37, #DF2771); margin-top: 50px;" direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="20">
+		<div class="marqu">“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” “Your attitude, not your aptitude, will determine your altitude.” “If you think education is expensive, try ignorance.” “The
+			only person who is educated is the one who has learned how to learn …and change.”</div>
+	</marquee>
+
+	<!-- FOOTER -->
+	<footer>
+		<div class="footer-container">
+			<div class="left-col">
+				<img src="https://learnbowl.com/assets/img/logo/logo.png" style="width: 200px;">
+				<div class="logo"></div>
+				<div class="social-media">
+					<a href="https://www.facebook.com/learnbowl"><img src="images/icon\fb.png"></a>
+					<a href="https://www.instagram.com/learnbowl/"><img src="images/icon\insta.png"></a>
+					<a href="#"><img src="images/icon\tt.png"></a>
+					<a href="#"><img src="images/icon\ytube.png"></a>
+					<a href="#"><img src="images/icon\linkedin.png"></a>
+				</div><br><br>
+
+				<p><img src="images/icon/location.png"> LearnBowl<br>Bangalore,India.</p><br>
+				<p><img src="images/icon/phone.png"> +91-1234-567-890<br><img src="images/icon/mail.png">&nbsp; learnbowl9@gmail.com</p>
+			</div>
+			<div class="right-col">
+				<h1 style="color: #fff">Stay Updated</h1>
+				<div class="border"></div><br>
+				<p>Enter Your Email to get our News and updates.</p>
+				<form class="newsletter-form">
+					<input class="txtb" type="email" placeholder="Enter Your Email">
+					<input class="btn" type="submit" value="Submit">
+				</form>
+			</div>
+
+		</div>
+		<br>
+		<center>
+			<p class="rights-text">Copyright © 2021 Created Ayush Kumar, All Rights Reserved.</p>
+		</center>
+		<br>
+	</footer>
+
+</body>
+
+</html>
